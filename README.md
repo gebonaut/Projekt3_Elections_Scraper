@@ -24,7 +24,9 @@ Všechny potřebné knihovny jsou k dispozici v souboru [**requirements.txt**](h
 ## Spuštění programu
 Spuštění programu příkazem v příkazové řádce vyžaduje dva povinné argumenty:
 
+
         python election-scraper.py "odkaz územního celku" "název výstupního souboru"
+
 
 Program se spustí a vypisuje průběh stahování dat. 
 Následně vygeneruje soubor s daty ve formátu '.csv'.
