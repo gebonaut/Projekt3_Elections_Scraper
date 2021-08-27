@@ -42,7 +42,7 @@ Následně vygeneruje soubor s daty ve formátu '.csv'.
 
 3. Zadání: 
 
-    
+
     python election-scraper.py "https://volby.cz/pls/ps2017nss/ps32?xjazyk=CZ&xkraj=11&xnumnuts=6204" "vysledky_breclav.csv"
 
 4. Průběh stahování:
