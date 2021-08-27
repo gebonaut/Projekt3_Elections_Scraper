@@ -12,18 +12,19 @@ Všechny potřebné knihovny jsou k dispozici v souboru [**requirements.txt**](h
 1. Ověření verze manažeru 
 
 
-    pip3 --version
+        pip3 --version
+
 
 2. Instalace knihoven ze souboru [**requirements.txt**](https://github.com/gebonaut/Projekt3_Elections_Scraper/blob/master/requirements.txt)
 
     
-    pip3 install -r requirements.txt
+        pip3 install -r requirements.txt
 
 
 ## Spuštění programu
 Spuštění programu příkazem v příkazové řádce vyžaduje dva povinné argumenty:
 
-    python election-scraper.py "odkaz územního celku" "název výstupního souboru"
+        python election-scraper.py "odkaz územního celku" "název výstupního souboru"
 
 Program se spustí a vypisuje průběh stahování dat. 
 Následně vygeneruje soubor s daty ve formátu '.csv'.
@@ -33,17 +34,17 @@ Následně vygeneruje soubor s daty ve formátu '.csv'.
 1. První argument (odkaz):
 
     
-    "https://volby.cz/pls/ps2017nss/ps32?xjazyk=CZ&xkraj=11&xnumnuts=6204"
+        "https://volby.cz/pls/ps2017nss/ps32?xjazyk=CZ&xkraj=11&xnumnuts=6204"
 
 2. Druhý argument (název výstupního souboru):
 
 
-    "vysledky_breclav.csv"
+        "vysledky_breclav.csv"
 
 3. Zadání: 
 
 
-    python election-scraper.py "https://volby.cz/pls/ps2017nss/ps32?xjazyk=CZ&xkraj=11&xnumnuts=6204" "vysledky_breclav.csv"
+        python election-scraper.py "https://volby.cz/pls/ps2017nss/ps32?xjazyk=CZ&xkraj=11&xnumnuts=6204" "vysledky_breclav.csv"
 
 4. Průběh stahování:
 
