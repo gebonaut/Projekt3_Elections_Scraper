@@ -47,18 +47,17 @@ Následně vygeneruje soubor s daty ve formátu '.csv'.
 
 4. Průběh stahování:
 
-   
-    Připojeno: kód 200, pokračuji ve stahování dat...
-    Stahuju data z odkazu č. 0 pro obec Babice
-          ✓ Úspěšně staženo
-    --------------------------------------------------
-    Stahuju data z odkazu č. 1 pro obec Bánov
-    - Stahuju data jednotlivých okrsků obce č. 1 Bánov:
-        • Stahuju data okrsku č. 1
-          ✓ Úspěšně staženo
-        • Stahuju data okrsku č. 2
-          ✓ Úspěšně staženo
-    --------------------------------------------------
+        Připojeno: kód 200, pokračuji ve stahování dat...
+        Stahuju data z odkazu č. 0 pro obec Babice
+              ✓ Úspěšně staženo
+        --------------------------------------------------
+        Stahuju data z odkazu č. 1 pro obec Bánov
+        - Stahuju data jednotlivých okrsků obce č. 1 Bánov:
+            • Stahuju data okrsku č. 1
+              ✓ Úspěšně staženo
+            • Stahuju data okrsku č. 2
+              ✓ Úspěšně staženo
+        --------------------------------------------------
 
 
 
