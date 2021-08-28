@@ -78,4 +78,4 @@ Následně vygeneruje soubor s daty ve formátu '.csv'.
         **************************************************
 
 
-
+V repozitáři je k [**náhledu výstup dat**](https://github.com/gebonaut/Projekt3_Elections_Scraper/blob/master/vysledky_breclav.csv) pro ukázkový příklad.
