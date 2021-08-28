@@ -5,7 +5,7 @@ import pandas as pd
 
 # -----------------------------------------------------------------------------
 def oddelovac(sign="-"):
-  """Klasický oddělovač"""
+  """Klasický oddělovač textu"""
   print(sign*50)
 # -----------------------------------------------------------------------------
 def prevedeni_textu_na_cislo(text_k_prevedeni:str) -> int:
@@ -47,6 +47,7 @@ def stazeni_seznamu_obci(URL:str):
     exit()
 # -----------------------------------------------------------------------------
 def scitani_stran(soup, obec):
+  """Stáhne seznam stran a sčítá počet voličů"""
   # data všech stran
   strany_data = soup.find_all('table')[1].find_all('tr')[2:] + soup.find_all('table')[2].find_all('tr')[2:]
   for strana in strany_data:
@@ -134,6 +135,7 @@ def stazeni_dat_obci(seznam_obci):
   return seznam_obci
 # -----------------------------------------------------------------------------
 def zpracovani_vystupu(dataframe):
+  """Pomocí knihovny pandas formátuje výstup dat"""
   upravena_data = pd.DataFrame(dataframe)
   upravena_data.drop(columns='Odkaz', inplace=True)
   upravena_data.rename(
@@ -147,6 +149,7 @@ def zpracovani_vystupu(dataframe):
   return upravena_data
 # -----------------------------------------------------------------------------
 def vystup_do_csv(data_k_vystupu,nazev_souboru):
+  """Exportuje výstupní data do souboru s názvem dle zadání uživatele"""
   data_k_vystupu.to_csv(nazev_souboru, index=False, encoding='utf8')
   oddelovac(sign='*')
   print(f'Soubor {nazev_souboru} byl úspěšně vygenerován.')
@@ -171,6 +174,7 @@ def kontrola_nazvu_souboru(nazev_souboru):
     exit()
 # -----------------------------------------------------------------------------
 def main():
+  """Hlavní funkce spouští potřebné funkce pro běh programu"""
   URL = str(sys.argv[1])
   nazev_souboru = kontrola_nazvu_souboru(sys.argv[2])
   seznam_obci = stazeni_seznamu_obci(URL)
