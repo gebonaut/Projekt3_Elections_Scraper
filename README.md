@@ -1,8 +1,7 @@
 # PROJEKT 3 - Elections Scraper
 
 ## Popis projektu
-Programu slouží ke stažení dat z webu [**volby.cz**](https://volby.cz/), konkrétně z parlamentních voleb 2017 - [**
-ukázka**](https://volby.cz/pls/ps2017nss/ps32?xjazyk=CZ&xkraj=2&xnumnuts=2101).
+Programu slouží ke stažení dat z webu [**volby.cz**](https://volby.cz/), konkrétně z parlamentních voleb 2017 - [**ukázka**](https://volby.cz/pls/ps2017nss/ps32?xjazyk=CZ&xkraj=2&xnumnuts=2101).
 
 ## Požadavky
 Všechny potřebné knihovny jsou k dispozici v souboru [**requirements.txt**](https://github.com/gebonaut/Projekt3_Elections_Scraper/blob/master/requirements.txt)
@@ -33,7 +32,7 @@ Následně vygeneruje soubor s daty ve formátu '.csv'.
 
 ### Příklad spuštění:
 
-1. První argument (odkaz):
+1. První argument (odkaz územního celku - [**"X ve sloupci výběr obce"**](https://volby.cz/pls/ps2017nss/ps3?xjazyk=CZ)):
 
     
         "https://volby.cz/pls/ps2017nss/ps32?xjazyk=CZ&xkraj=11&xnumnuts=6204"
