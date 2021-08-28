@@ -8,11 +8,7 @@ Všechny potřebné knihovny jsou k dispozici v souboru [**requirements.txt**](h
 
 ## Instalace knihoven
 
-1. Ověření verze manažeru 
-
-
-        pip3 --version
-
+1. Pro instalaci doporučuji použít nové virtuální prostředí
 
 2. Instalace knihoven ze souboru [**requirements.txt**](https://github.com/gebonaut/Projekt3_Elections_Scraper/blob/master/requirements.txt)
 
@@ -42,7 +38,7 @@ Následně vygeneruje soubor s daty ve formátu '.csv'.
 
         "vysledky_breclav.csv"
 
-3. Zadání: 
+3. Příkaz: 
 
 
         python election-scraper.py "https://volby.cz/pls/ps2017nss/ps32?xjazyk=CZ&xkraj=11&xnumnuts=6204" "vysledky_breclav.csv"

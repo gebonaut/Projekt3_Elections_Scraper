@@ -18,9 +18,10 @@ def prevedeni_textu_na_cislo(text_k_prevedeni:str) -> int:
 def stazeni_seznamu_obci(URL:str):
   """Kontroluje platnost URL a stahuje seznam obcí ve zvoleném okrese"""
   try:
+    test_url = "https://volby.cz/pls/ps2017nss/"
     r = requests.get(URL)
     status = r.status_code
-    if status == 200:
+    if status == 200 and test_url in URL:
       oddelovac(sign='*')
       print(f'Připojeno: kód {status}, pokračuji ve stahování dat...')
       oddelovac(sign='*')
